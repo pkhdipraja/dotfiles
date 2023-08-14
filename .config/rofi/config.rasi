@@ -1,0 +1,6 @@
+configuration {
+font: "Noto Sans Mono 10";
+}
+
+@theme "/usr/share/rofi/themes/solarized.rasi"
+
