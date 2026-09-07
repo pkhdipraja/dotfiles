@@ -144,6 +144,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias s='kitten ssh'
 
 # fzf shell integrations
 eval "$(fzf --zsh)"
+export PATH="$HOME/.local/bin:$PATH"
